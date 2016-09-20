@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Portal_modelo.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/main.css">
+
+<script src="../js/jquery-3.1.0.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/responsiveslides.js"></script>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Portal Fametro - Cordenação</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<!--------------------- div Logo ---------------------------->
+		<div id="logo">
+        <table>
+          <tr>
+            <td><img src="../img/logo-png.png" width="160"; height="80";/></td>
+            
+            <td> 
+            <marquee scrollDelay=100><font size="+2"><font face="Times New Roman, Times, serif"><font color=#060>
+            Conheça todas as formas de ingresso disponíveis: Vestibular, ENEM, Transferência, 2ª Graduação, FIES e PROUNI.
+            / / Conheça nossas unidades, laboratórios, biblioteca e muito mais.  
+            </em></font></marquee> 
+            </td> 
+          </tr>
+         
+        </table>
+        </div>        
+<!--------------------- Fim div Logo ------------------------>
+
+
+<!--------------------- Nav Menu ---------------------------->
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">    
+    	<div class="navbar-header">
+        
+      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>                        
+      		</button>     		
+            
+    	</div>
+        
+    <div class="collapse navbar-collapse" id="myNavbar">
+      	<ul class="nav navbar-nav">
+      
+            <li class="active">
+            <li><a href="Portal_Cordenacao.html">Home</a></li>
+            <li><a href="Funcionarios_cadastro.html">Cadastro de Funcionário</a></li>
+            <li><a href="Portal_Aluno.html">Cadastro de Aluno</a></li>
+            <li><a href="#">Declaração</a></li>
+            <li><a href="#">Trancar Disciplina</a></li>
+            <li><a href="#">Trancar Semestre</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Requisição<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Requisição de Faltas a Professores</a></li>
+                    <li><a href="#">Requisição de Notas a Professores</a></li>                    
+                </ul>
+        	</li>
+            <li><a href="#">Opiniões</a></li>
+            <li><a href="Portal.html">Sair</a></li>    	
+        
+      	</ul>     	        
+       
+      
+    	</div>
+	</div>
+</nav>
+
+<!--------------------- Fim Nav Menu --------------------------->
+
+
+<!--------------------- div coteudo ----------------------------><!-- InstanceBeginEditable name="conteudo" -->
+<div class="container-fluid">
+    	<div id="cad-funcionario">
+       	
+         <h3> Cadastro de Alunos </h3>
+         <br/>	
+         <form action="#local_pagina" name="acesso" method="post">
+            <div class=form-content>              
+                               
+	        <div class="col-sm-2">
+            <div class=form-group> <input name="matricula" type="text" id="matricula" maxlength="60" class="form-control input-underline input-lg" placeholder="Matricula"/></div>      
+            </div>
+            
+            <div class="col-sm-4">
+            <div class=form-group> <input name="nome" type="text" id="nome" maxlength="50" class="form-control input-underline input-lg" placeholder="Nome"/></div>      
+            </div>
+            
+            <div class="col-sm-2">
+            <div class=form-group><select name="sexo" id="sexo"  class="form-control input-underline input-lg" />
+	            <option>Gênero...</option>
+	            <option value="Masculino">Masculino</option>
+	            <option value="Feminino">Feminino</option>
+	            </select></div>
+            </div>
+            
+           	<div class="col-sm-2">
+            <div class=form-group><input name="data-nascimento" type="date" id="data-nascimento" placeholder="Data / Nascimento" maxlength="14" class="form-control input-underline input-lg" /></div>  
+            </div>
+            
+            <div class="col-sm-2">
+            <div class=form-group><input name="cpf" type="text" id="cpf" placeholder="CPF" maxlength="14" class="form-control input-underline input-lg" /></div>  
+            </div>
+            
+            <div class="col-sm-4">
+            <div class=form-group><input name="pai" type="text" id="pai" placeholder="Nome do Pai" maxlength="50" class="form-control input-underline input-lg" /></div>  
+            </div>
+            
+            <div class="col-sm-4">
+            <div class=form-group><input name="mae" type="text" id="mae" placeholder="Nome da Mãe" maxlength="50" class="form-control input-underline input-lg" /></div>  
+            </div>
+            
+            <div class="col-sm-4">  
+            <div class=form-group><input name="logradouro" type="text" id="logradouro" class="form-control input-underline input-lg" maxlength="50" placeholder="Logradouro" /></div>  
+            </div>
+            
+            <div class="col-sm-4">  
+            <div class=form-group><input name="complemento" type="text" id="complemento" class="form-control input-underline input-lg" maxlength="50" placeholder="Complemento" /></div>  
+            </div>
+            
+            <div class="col-sm-2">  
+            <div class=form-group><input name="numero-rua" type="text" id="numero-rua" class="form-control input-underline input-lg" maxlength="50" placeholder="Número" /></div>  
+            </div>
+            
+            <div class="col-sm-3">
+            <div class=form-group><input name="bairro" type="text" id="bairro" class="form-control input-underline input-lg" maxlength="30" placeholder="Bairro" /></div>  
+            </div>
+            
+            <div class="col-sm-2">
+            <div class=form-group><input name="cidade" type="text" id="cidade" class="form-control input-underline input-lg" maxlength="30" placeholder="Cidade" /></div>  
+            </div>
+            
+            <div class="col-sm-1">
+            <div class=form-group><select name="estado" id="estado" class="form-control input-underline input-lg" />
+	            <option>UF</option>
+	            <option value="AC">AC</option>
+	            <option value="AL">AL</option>
+	            <option value="AP">AP</option>
+	            <option value="AM">AM</option>
+	            <option value="BA">BA</option>
+	            <option value="CE">CE</option>
+	            <option value="ES">ES</option>
+	            <option value="DF">DF</option>
+	            <option value="MA">MA</option>
+	            <option value="MT">MT</option>
+	            <option value="MS">MS</option>
+	            <option value="MG">MG</option>
+	            <option value="PA">PA</option>
+	            <option value="PB">PB</option>
+	            <option value="PR">PR</option>
+	            <option value="PE">PE</option>
+	            <option value="PI">PI</option>
+	            <option value="RJ">RJ</option>
+	            <option value="RN">RN</option>
+	            <option value="RS">RS</option>
+	            <option value="RO">RO</option>
+	            <option value="RR">RR</option>
+	            <option value="SC">SC</option>
+	            <option value="SP">SP</option>
+	            <option value="SE">SE</option>
+	            <option value="TO">TO</option>
+	            </select></div>
+            </div>
+                
+            <div class="col-sm-1">
+            <div class=form-group><input name="pais" type="text" id="pais" class="form-control input-underline input-lg" maxlength="30" placeholder="País" /></div>  
+            </div>
+            
+            <div class="col-sm-2">    
+            <div class=form-group><input name="cep" type="text" id="cep" placeholder="Cep" class="form-control input-underline input-lg" maxlength="9" /> </div>
+            </div>           
+            
+            <div class="col-sm-2">
+            <div class=form-group><input name="celular" type="text" id="celular" placeholder="Telefone Celular" class="form-control input-underline input-lg" maxlength="14" /></div>
+            </div>
+            
+            <div class="col-sm-2">
+            <div class=form-group><input name="fixo" type="text" id="fixo" placeholder="Telefone Fixo" class="form-control input-underline input-lg" maxlength="13" /></div>
+            </div>
+            
+            <div class="col-sm-2">
+            <div class=form-group><input name="telefone" type="text" id="telefone" placeholder="Telefone 3" class="form-control input-underline input-lg" maxlength="14" /></div>
+            </div>           
+            
+            <div class="col-sm-3">
+            <div class=form-group><input name="email" type="text" id="email" class="form-control input-underline input-lg" maxlength="30" placeholder="Email" /></div>
+            </div>
+            
+            <div class="col-sm-6">
+            <br/> 
+            <button type="submit" name="cadastrar" class="botaologin bradius botao">Salvar</button>
+            <button type="reset" name="limpar" class="botaologin bradius botao">Limpar</button> 
+            </div>              
+         </form>            
+         
+    	</div>      
+    
+	</div>
+    
+</div>
+
+<!-- InstanceEndEditable --><!----------------- fim da div coteudo ------------------------>
+
+
+<!--------------------- Nav do Rodape ------------------------->
+
+<nav class="navbar navbar-inverse">
+<h2>Copyright © 2016 Fametro. Todos os direitos reservados.</h2>
+</nav>
+
+<!----------------- Fim Nav do Rodape ------------------------->
+
+</body>
+<!-- InstanceEnd --></html>
