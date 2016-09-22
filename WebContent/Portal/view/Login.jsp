@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//PT" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -21,7 +21,7 @@
         		<br/>		
          		<td><img src="../img/logo-png.png" width="160"; height="80";/></td>
                 		
-         		<h4>Portal AcadÃªmico</h4>
+         		<h4>Portal Acadêmico</h4>
                 <form action="Portal_Administrativo.html" name="acesso" method="post">
                     <div class=form-content>
                     <div class=form-group> <input type="text" class="form-control input-underline input-lg" placeholder="Login"> </div>
